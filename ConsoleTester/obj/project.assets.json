@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "GwentLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/GwentLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GwentLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GwentLibrary/1.0.0": {
+      "type": "project",
+      "path": "../GwentLibrary/GwentLibrary.csproj",
+      "msbuildProject": "../GwentLibrary/GwentLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "GwentLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/lianny/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/lianny/$/home/lianny/GwentProDev/ConsoleTester/ConsoleTester.csproj",
+      "projectName": "ConsoleTester",
+      "projectPath": "/home/lianny/$/home/lianny/GwentProDev/ConsoleTester/ConsoleTester.csproj",
+      "packagesPath": "/home/lianny/.nuget/packages/",
+      "outputPath": "/home/lianny/$/home/lianny/GwentProDev/ConsoleTester/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/lianny/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/home/lianny/$/home/lianny/GwentProDev/GwentLibrary/GwentLibrary.csproj": {
+              "projectPath": "/home/lianny/$/home/lianny/GwentProDev/GwentLibrary/GwentLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/home/lianny/.dotnet/sdk/7.0.405/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

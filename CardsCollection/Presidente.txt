@@ -1,0 +1,9 @@
+O
+Presidente
+Neutral
+M R S
+6
+"Discurso diplomático" Aumenta el poder de cada carta en su fila en 1.
+1
+El presidente, elegido por votación en todas las realidades posibles, es un maestro en la manipulación política y retórica, capaz de motivar a sus aliados incluso en las más feroces batallas.
+
