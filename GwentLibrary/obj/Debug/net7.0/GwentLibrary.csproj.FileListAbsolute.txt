@@ -1,0 +1,11 @@
+/home/lianny/$/home/lianny/GwentProDev/GwentLibrary/bin/Debug/net7.0/GwentLibrary.deps.json
+/home/lianny/$/home/lianny/GwentProDev/GwentLibrary/bin/Debug/net7.0/GwentLibrary.dll
+/home/lianny/$/home/lianny/GwentProDev/GwentLibrary/bin/Debug/net7.0/GwentLibrary.pdb
+/home/lianny/$/home/lianny/GwentProDev/GwentLibrary/obj/Debug/net7.0/GwentLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/home/lianny/$/home/lianny/GwentProDev/GwentLibrary/obj/Debug/net7.0/GwentLibrary.AssemblyInfoInputs.cache
+/home/lianny/$/home/lianny/GwentProDev/GwentLibrary/obj/Debug/net7.0/GwentLibrary.AssemblyInfo.cs
+/home/lianny/$/home/lianny/GwentProDev/GwentLibrary/obj/Debug/net7.0/GwentLibrary.csproj.CoreCompileInputs.cache
+/home/lianny/$/home/lianny/GwentProDev/GwentLibrary/obj/Debug/net7.0/GwentLibrary.dll
+/home/lianny/$/home/lianny/GwentProDev/GwentLibrary/obj/Debug/net7.0/refint/GwentLibrary.dll
+/home/lianny/$/home/lianny/GwentProDev/GwentLibrary/obj/Debug/net7.0/GwentLibrary.pdb
+/home/lianny/$/home/lianny/GwentProDev/GwentLibrary/obj/Debug/net7.0/ref/GwentLibrary.dll

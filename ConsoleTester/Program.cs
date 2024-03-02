@@ -7,18 +7,19 @@ class Program
     {   
         string path = "../CardsCollection";
 
-        List<string[]> AlmostCards = CardsCreator.GetCardInfoList(path);
+        List<string[]> infoListTester = CardsCreator.GetCardInfoList(path);
 
-        CardsCollection AllCards = new CardsCollection(AlmostCards);
+        CardsCollection cardsCollectionTester = new CardsCollection(infoListTester);
 
-        Card[] AllCardsArray =  AllCards.AllFactions["Rickpública"].ToArray();
+        Deck DeckDePrueba = new Deck("Rickpública", cardsCollectionTester.AllFactions);
 
-        Card cartadepruebasi = AllCardsArray[3];
-
-        Card cartadepruebano = AllCardsArray[1];
-
-        Deck DeckDePrueba = new Deck("Rickpública",AllCards.AllFactions);
+        PlayerBattlefield playerBattlefield = new PlayerBattlefield();
 
         System.Console.WriteLine("_____________________________________:)"); 
+
+        foreach(var item in DeckDePrueba.CardDeck)
+        {
+            System.Console.WriteLine(item.Name + " " + item.Faction);
+        }
     }
 }

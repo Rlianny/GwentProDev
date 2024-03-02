@@ -10,14 +10,14 @@ public class LeaderCard : Card
 
 public class UnityCard : Card
 {   
-    public string[] Fila {get; private set;}
+    public List<string> Row {get; private set;}
     public int Power {get; set;}
     public virtual bool Modificable {get; protected set;}
     public virtual int PossibleAppearances {get; protected set;}
 
     public UnityCard(string[] CardInfoArray) : base (CardInfoArray)
     {
-        Fila = CardInfoArray[3].Split(' ', StringSplitOptions.RemoveEmptyEntries);
+        Row = CardInfoArray[3].Split(' ', StringSplitOptions.RemoveEmptyEntries).ToList();
         Power = int.Parse(CardInfoArray[4]);
     }
 }
@@ -59,17 +59,19 @@ public class IncreaseCard : SpecialCard
 }
 
 public class ClearanceCard : SpecialCard
-{
+{   
+    public List<string> Row {get; private set;}
     public ClearanceCard(string[] CardInfoArray) : base (CardInfoArray)
     {
-
+        Row = CardInfoArray[3].Split(' ', StringSplitOptions.RemoveEmptyEntries).ToList();
     }
 }
 
 public class WeatherCard : SpecialCard
-{
+{   
+    public string Row {get; private set;}
     public WeatherCard(string[] CardInfoArray) : base (CardInfoArray)
     {
-
+        Row = CardInfoArray[3]; // posible error (el string puede tener más de un carácter)
     }
 }

@@ -21,15 +21,18 @@ public class CardsCollection
             System.Console.WriteLine($"{card.Name} ha entrado al campo de batalla");
             count++;
 
-            if(!AllFactions.Keys.Contains(card.Faction)) //  si la facción no estaba como llave del diccionario la agregamos y agregamos la carta 
-            {   
-                List<Card> Temp = new();
-                AllFactions.Add(card.Faction, Temp);
-                Temp.Add(card);
-            }
-            else // si la facción ya estaba establecida como llave del diccionario solo añadimos la carta
+            if(card.Type != "Líder") // si la carta no es el Líder de una facción 
             {
-                AllFactions[card.Faction].Add(card);
+                if(!AllFactions.Keys.Contains(card.Faction)) //  si la facción no estaba como llave del diccionario la agregamos y agregamos la carta 
+                {   
+                    List<Card> Temp = new();
+                    AllFactions.Add(card.Faction, Temp);
+                    Temp.Add(card);
+                }
+                else // si la facción ya estaba establecida como llave del diccionario solo añadimos la carta
+                {
+                    AllFactions[card.Faction].Add(card);
+                }
             }
         }
 

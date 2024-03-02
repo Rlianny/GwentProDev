@@ -18,11 +18,7 @@ public class Deck
         Faction = factionName;
         CardDeck = factionCards[Faction];
 
-        CardsTotalNumber = CardDeck.Count;
-        UnityCardsTotalNumber = UnityCardsCounter(CardDeck);
-        HeroCardsTotalNumber = HeroCardsCounter(CardDeck);
-        SpecialCardsTotalNumber = SpecialCardsCounter(CardDeck);
-        UnityPowerTotalNumber = TotalPowerCounter(CardDeck);
+        UpdateDeckInfo(CardDeck);
     }
 
     public void DuplicateCard(List<Card> CardDeck, Card card)

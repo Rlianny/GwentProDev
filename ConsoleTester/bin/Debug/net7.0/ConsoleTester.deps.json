@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ConsoleTester/1.0.0": {
+        "dependencies": {
+          "GwentLibrary": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleTester.dll": {}
+        }
+      },
+      "GwentLibrary/1.0.0": {
+        "runtime": {
+          "GwentLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleTester/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GwentLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

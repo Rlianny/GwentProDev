@@ -28,6 +28,11 @@ public class Card
         Quote = CardInfoArray[8];
     }
 
+    public void ActivateEffect()
+    {
+        
+    }
+
     private static string TypeClassifier(string TipeLetter)
     {
         switch(TipeLetter)
